@@ -6,6 +6,13 @@
 
 def word_check(word)
     # Write your code here
+    if word.size > 6
+        return "long"
+    elsif word.size ==6
+        return "medium"
+    else
+        return "short"
+    end
 end
 
 puts word_check("contradiction") # => "long"

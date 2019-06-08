@@ -4,6 +4,8 @@
 
 def range(min, max)
     # Write your code here
+    new_aray = []
+    
 end
 
 print range(2, 7)   # => [2, 3, 4, 5, 6, 7]

@@ -3,6 +3,7 @@
 
 def average_of_three(num1, num2, num3)
 # Write your code here
+p num1_1 = num1.split(",")
 end
 
 puts average_of_three(3, 7, 8)   # => 6.0

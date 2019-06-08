@@ -4,6 +4,11 @@
 
 def larger_number(num1, num2)
     # Write your code here
+    if num1 > num2
+        return num1
+    else
+      return num2
+    end
 end
 
 puts larger_number(42, 28)   # => 42

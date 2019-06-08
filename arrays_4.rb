@@ -4,6 +4,15 @@
 
 def even_nums(max)
     # Write your code here
+    new_array = []
+    i = max
+    loop do
+        i = i-1
+        next if i % 2 != 0
+        new_array<< "#{i}"
+        break if i <= 0
+    end
+    new_array
 end
 
 print even_nums(10) # => [0, 2, 4, 6, 8, 10]

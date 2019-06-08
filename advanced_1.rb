@@ -6,6 +6,10 @@
 
 def whisper_words(words)
     # Write your code here
+    array =[]
+    new_word=words.join(" ").split(" ")
+    new_word.map {|stri| array << "#{stri.downcase...}"}
+    array
 end
 
 print whisper_words(["KEEP The NOISE down"]) # => ["keep...", "the...", "noise...", "down..."]

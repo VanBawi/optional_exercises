@@ -4,6 +4,11 @@
 
 def doubler(numbers)
     # Write your code here
+    array=[]
+    numbers.each do |num|
+    array << num *= 2
+    end
+    array
 end
 
 print doubler([1, 2, 3, 4]) # => [2, 4, 6, 8]

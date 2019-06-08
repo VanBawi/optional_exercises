@@ -5,6 +5,14 @@
 
 def either_only(number)
     # Write your code here
+    if number % 3 == 0 || number % 5 == 0
+        return true
+    elsif
+        number % 3 == 0 && number % 5 == 0
+        return false
+    else
+        false
+    end
 end
 
 puts either_only(9)  # => true

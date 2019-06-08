@@ -5,6 +5,11 @@
 
 def longer_string(str1, str2)
     # Write your code here
+    if str1.size < str2.size
+        return str2
+    else
+        return str1
+    end
 end
 
 puts longer_string("recode", "programming") # => "programming"

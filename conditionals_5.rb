@@ -6,6 +6,14 @@
 
 def number_check(num)
     # Write your code here
+    if num > 0
+        return "positive"
+    elsif num < 0
+        return "negative"
+    else num == 0
+        return "zero"
+    end
+
 end
 
 puts number_check(5)    # => "positive"

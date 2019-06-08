@@ -5,6 +5,8 @@
 
 def o_words(sentence)
     # Write your code here
+   new_sentence= sentence.split(" ")
+   new_sentence.select { |n| n.include?("o")}
 end
 
 print o_words("How did you do that?") #=> ["How", "you", "do"]

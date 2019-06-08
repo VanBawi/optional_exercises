@@ -4,6 +4,7 @@
 
 def last_index(str, char)
     # Write your code here
+    
 end
 
 puts last_index("abca", "a")       #=> 3
